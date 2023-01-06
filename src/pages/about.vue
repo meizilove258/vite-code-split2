@@ -1,10 +1,10 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const route = useRoute()
 console.log(route)
-const router = useRouter()
-console.log(router)
+// const router = useRouter()
+// console.log(router)
 </script>
 <template>
     <button>按钮</button>
