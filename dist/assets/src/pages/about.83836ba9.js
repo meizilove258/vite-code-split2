@@ -1,0 +1,1 @@
+import{u as e}from"../../vue-router.b5c0fac5.js";import{o as s,b as a,F as n,d as o}from"../../vue.69241224.js";const r=o("button",null,"\u6309\u94AE",-1),u=o("div",null," about 1 ",-1),d={__name:"about",setup(c){const t=e();return console.log(t),(l,_)=>(s(),a(n,null,[r,u],64))}};export{d as default};
