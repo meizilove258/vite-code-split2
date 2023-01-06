@@ -9,7 +9,11 @@ export default defineConfig({
         }),
         // splitVendorChunkPlugin(),
         chunkSplitPlugin({
-            strategy: 'unbundle'
+            strategy: 'unbundle',
+            customSplitting: {
+                vue: ['vue'],
+                'vue-router': ['vue-router']
+            }
         }),
     ],
     // build: {
