@@ -11,8 +11,8 @@ export default defineConfig({
         chunkSplitPlugin({
             strategy: 'unbundle',
             customSplitting: {
-                vue: ['vue'],
-                'vue-router': ['vue-router']
+                // vue: ['vue'],
+                // 'vue-router': ['vue-router']
             }
         }),
     ],
