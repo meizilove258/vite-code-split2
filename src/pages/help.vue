@@ -1,10 +1,11 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
 import { sum } from '@/serve'
-import { add } from '@/utils'
+import { add, getName } from '@/utils'
 
 sum()
 add()
+getName()
 const route = useRoute()
 const router = useRouter()
 console.log(route)
