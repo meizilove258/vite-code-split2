@@ -1,0 +1,1 @@
+import{u as s,e as a,o as n,f as u,F as r,g as o}from"./vendor.c2876b21.js";import{s as c,a as l,g as _}from"./utils-serve.748b06b4.js";const m=o("button",null,"\u6309\u94AE",-1),d=o("div",null," about 1 ",-1),h={__name:"about",setup(p){c(),l(),_();const e=s();console.log(e);const t=a();return console.log(t),(g,i)=>(n(),u(r,null,[m,d],64))}};export{h as default};
