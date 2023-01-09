@@ -1,1 +1,0 @@
-import{u as s,o as a,e as n,F as u,f as o}from"./vendor.b4058e77.js";import{s as r,a as c,g as l}from"./utils-serve.748b06b4.js";const _=o("button",null,"\u6309\u94AE",-1),m=o("div",null," about 1 ",-1),b={__name:"about",setup(d){r(),c(),l();const e=s();console.log(e);const t=useRouter();return console.log(t),(p,i)=>(a(),n(u,null,[_,m],64))}};export{b as default};

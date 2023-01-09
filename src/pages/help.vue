@@ -1,5 +1,5 @@
 <script setup>
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { sum } from '@/serve'
 import { add, getName } from '@/utils'
 
@@ -7,9 +7,9 @@ sum()
 add()
 getName()
 const route = useRoute()
-// const router = useRouter()
+const router = useRouter()
 console.log(route)
-// console.log(router)
+console.log(router)
 function btnClick() {
     import('../foo').then(({ default: foo }) => foo)
 }

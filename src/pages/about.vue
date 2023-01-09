@@ -1,5 +1,5 @@
 <script setup>
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { sum } from '@/serve'
 import { add, getName } from '@/utils'
 
